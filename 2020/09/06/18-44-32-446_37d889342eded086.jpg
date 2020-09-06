@@ -1,0 +1,513 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+            <link rel="shortcut icon" href="https://psuxus.azureedge.net/Content/retail/assets/flow.6fd8607b761a7652039b724049ba71dc.2.ico" onerror="this.href='/Content/retail/assets/flow.6fd8607b761a7652039b724049ba71dc.2.ico'">
+
+            <link rel="apple-touch-icon" href="https://psuxus.azureedge.net/Content/retail/assets/flow.6fd8607b761a7652039b724049ba71dc.2.ico">
+
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+
+    <meta name="ms.sitename" content="flow" />
+    <meta name="ms.sitever" content="1.0.4547.6.01a8fd47cd Flow-Service.portal/2008.3 (AzBuildW2-Ma28.200826-1611)" />
+    <meta name="ms.pltfrm" content="flow.microsoft.com" />
+    <meta name="ms.pagetype" content="" />
+    <meta name="ms.lang" content="en" />
+    <meta name="ms.version" content="1.0.4547.6.01a8fd47cd Flow-Service.portal/2008.3 (AzBuildW2-Ma28.200826-1611)" />
+    <meta name="ms.pgtmplt" content="" />
+    <meta name="ms.prod" content="flow" />
+    <meta name="ms.auth" content="false" />
+    <meta name="ms.env" content="ppe" />
+<meta name="ms.url" content="/favicon.ico" />
+
+
+
+
+    <meta name="apple-itunes-app" content="app-id=1094928825">
+    <meta name="apple-itunes-app-tab" content="app-id=1094928825">
+
+    <meta name="google-play-app" content="app-id=com.microsoft.flow">
+    <meta name="google-play-app-tab" content="app-id=com.microsoft.flow">
+
+
+        <link rel="stylesheet"
+              href="https://psuxus.azureedge.net/Content/retail/designer_default.250aaeb3a093c430b05c.2.css"
+              onload="(window.msFlowCss = (window.msFlowCss || [])).push([this, '/Content/retail/designer_default.250aaeb3a093c430b05c.2.css']) && window.msFlowCssOnLoad && window.msFlowCssOnLoad()"
+              onerror="(window.cdnErrors = (window.cdnErrors || [])).push(['CSS', this.href]) && window.msFlowLogCdnError && window.msFlowLogCdnError(this);this.href='/Content/retail/designer_default.250aaeb3a093c430b05c.2.css';">
+
+    <link rel="preload" href="https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2" as="font" type="font/woff2" crossorigin>
+
+            <link rel="stylesheet"
+              href="https://psuxus.azureedge.net/Content/retail/app.8d85661de4509bb25845.2.css"
+              onload="(window.msFlowCss = (window.msFlowCss || [])).push([this, '/Content/retail/app.8d85661de4509bb25845.2.css']) && window.msFlowCssOnLoad && window.msFlowCssOnLoad()"
+              onerror="(window.cdnErrors = (window.cdnErrors || [])).push(['CSS', this.href]) && window.msFlowLogCdnError && window.msFlowLogCdnError(this);this.href='/Content/retail/app.8d85661de4509bb25845.2.css';">
+
+
+
+        <link rel="stylesheet"
+              href="https://psuxus.azureedge.net/Content/retail/themes_default.36dcddf3d01c33dbbd2c.2.css"
+              onload="(window.msFlowCss = (window.msFlowCss || [])).push([this, '/Content/retail/themes_default.36dcddf3d01c33dbbd2c.2.css']) && window.msFlowCssOnLoad && window.msFlowCssOnLoad()"
+              onerror="(window.cdnErrors = (window.cdnErrors || [])).push(['CSS', this.href]) && window.msFlowLogCdnError && window.msFlowLogCdnError(this);this.href='/Content/retail/themes_default.36dcddf3d01c33dbbd2c.2.css';">
+
+    <base href="/manage/">
+
+    <script>
+        
+        if (!window.location.origin) {
+            window.location.origin = window.location.protocol + '//' + window.location.hostname + (window.location.port ? (':' + window.location.port) : '');
+        }
+    </script>
+
+    
+</head>
+<body
+    ng-app="processSimple"
+    ng-strict-di
+    class="ms-Fabric   f-unauthenticated">
+<a href="#content-container" id="skip-to-main-content-id" class="skip-to-main-content">
+    Skip to main content
+</a>
+    <div class="main-container">
+            <div id="cookie-banner-offset"></div>
+            <div class="cookie-banner-container" id="cookie-banner-container"></div>
+
+        <trial-dialog></trial-dialog>
+
+
+
+
+<header class="flow-c-header theme-white" ng-non-bindable>
+    <div class="header-container" id="header-container">
+        <div class="header-content">
+            <img alt="Microsoft" class="ms-logo" onerror="this.src=&#39;/Content/retail/assets/MicrosoftLogoColor.1e4cd830c69560fc7b88f60d1f75d732.2.svg&#39;" src="https://psuxus.azureedge.net/Content/retail/assets/MicrosoftLogoColor.1e4cd830c69560fc7b88f60d1f75d732.2.svg" />
+            <div class="header-section f-left-separator">
+                <a class="product-name" href="/en-us/" data-event-name="HeaderHomeClicked">
+                    Power Automate
+                </a>
+            </div>
+            <nav aria-label="Main navigation" class="header-section header-section-nav">
+                <ul class="c-menu-container">
+                    <li><a class="c-hyperlink" href="/en-us/templates/" data-event-name="HeaderTemplatesClicked">Templates</a></li>
+                    <li><a class="c-hyperlink" href="/en-us/connectors/" data-event-name="HeaderServicesClicked">Connectors</a></li>
+                    
+
+    <li class="learn-menu c-select-menu" ng-non-bindable>
+        <a class="header-learn" href="" role="button" aria-expanded="false" aria-haspopup="true" class="c-hyperlink learn-more-select-menu-trigger" data-event-name="HeaderLearnClicked">Learn</a>
+        <ul class="c-menu learn-more-select-menu" aria-labelby="header-learn" role="menu" aria-hidden="true">
+                <li class="c-menu-item pricing-info">
+                    <a class="c-hyperlink" role="menuitem" href="/en-us/pricing/" data-event-name="HeaderLearnMenuPricingClicked">Pricing</a>
+                </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" href="/en-us/documentation/" role="menuitem" data-event-name="HeaderLearnMenuDocumentationClicked">Documentation</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" href="https://go.microsoft.com/fwlink/p/?linkid=2063549&amp;utm_source=flow-learn-menu&amp;utm_medium=web" role="menuitem" data-event-name="HeaderLearnMenuLearnClicked">Learn</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" role="menuitem" href="/en-us/support/" data-event-name="HeaderLearnMenuSupportClicked">Support</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" role="menuitem" href="https://go.microsoft.com/fwlink/?LinkID=787467" data-event-name="HeaderLearnMenuCommunityClicked">Community</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" role="menuitem" href="https://go.microsoft.com/fwlink/?LinkID=787474" data-event-name="HeaderLearnMenuFeedbackClicked">Give Feedback</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" role="menuitem" href="/en-us/blog/" data-event-name="HeaderLearnMenuBlogClicked">Blog</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" role="menuitem" href="/en-us/ui-flows/" data-event-name="HeaderLearnMenuUiFlowsClicked">UI Flows</a>
+            </li>
+        </ul>
+    </li>
+
+                </ul>
+            </nav>
+            <div class="header-section f-search">
+                <form class="c-search flow-header-search"
+    action="/en-us/search/"
+    method="GET"
+    onsubmit="return q.value.trim()"
+    data-event-name="SearchEvent"
+    data-event-source="Header"
+    ng-non-bindable>
+    <input type="search"
+        name="q"
+        maxlength="500"
+        spellcheck="false"
+        autocomplete="off"
+        placeholder="Search templates ..."
+        aria-label="Search templates">
+    <button type="submit"
+        class="c-glyph"
+        alt="Search"
+        aria-label="Search Microsoft Power Automate">
+        <span class="x-screen-reader">Search</span>
+    </button>
+</form>
+
+            </div>
+            <section class="header-actions">
+                <ul>
+                    <li class="f-search"><form class="c-search flow-header-search"
+    action="/en-us/search/"
+    method="GET"
+    onsubmit="return q.value.trim()"
+    data-event-name="SearchEvent"
+    data-event-source="Header"
+    ng-non-bindable>
+    <input type="search"
+        name="q"
+        maxlength="500"
+        spellcheck="false"
+        autocomplete="off"
+        placeholder="Search templates ..."
+        aria-label="Search templates">
+    <button type="submit"
+        class="c-glyph"
+        alt="Search"
+        aria-label="Search Microsoft Power Automate">
+        <span class="x-screen-reader">Search</span>
+    </button>
+</form>
+</li>
+                    
+                    <li><a id="header-signin-link" href="/en-us/signin/?redirectUrl=https%3a%2f%2fflow.microsoft.com%2ferror%2f%3fhttpStatusCode%3d404%26404%3bhttps%3a%2f%2fflow.microsoft.com%3a443%2ffavicon.ico" class="c-hyperlink" data-event-name="HeaderSignInClicked" data-js="header-signin">Sign in</a></li>
+                    <li>
+                        
+
+
+    <button class="sign-up"
+            role="button"
+            aria-expanded="false"
+            data-js-flyout="header-signup-4ad6cba1-d719-4673-9dd2-10b333348103"
+            aria-haspopup="true"
+            data-event-name="SignUpClicked"
+            data-event-source="Header"
+            data-js="header-signup-button">
+        Try free
+    </button>
+    <div class="flow-c-header-signup-flyout">
+        <div class="c-flyout" id="header-signup-4ad6cba1-d719-4673-9dd2-10b333348103" data-js-flyout-placement="bottom" data-js-flyout-dismissible="false"
+        aria-hidden="true">
+            <section class="context-header-signup sign-up-header">
+                <p>Sign up with your email</p>
+                <form class="sign-up-header-form flow-c-signup-form" method="post" action="https://signup.microsoft.com/signup?sku=Flow_Free&amp;pbi_source=web&amp;pi=1&amp;ru=https%3a%2f%2fflow.microsoft.com%2fsignIn%3fredirectUrl%3dhttps%253a%252f%252fflow.microsoft.com%252ferror%252f%253fhttpStatusCode%253d404%2526404%253bhttps%253a%252f%252fflow.microsoft.com%253a443%252ffavicon.ico">
+                    <div class="sign-up-container c-button-text-field">
+    <input type="text" name="StepsData.Email" class="sign-up-header-email c-text-field" placeholder="someone@example.com" spellcheck="false" aria-label="Enter your email address:" data-js="signup-email-input" />
+    <button class="c-glyph glyph-forward-arrow sign-up-header-button" type="submit" data-js="signup-email-submit"><span class="x-screen-reader">Sign up</span></button>
+    <p class="sign-up-header-error" aria-live="assertive"></p>
+    <p class="sign-up-header-warning" aria-live="assertive"></p>
+</div>
+
+                    <a role="button"
+                        class="sign-up-header-msa-try-again"
+                        href=""
+                        style="display:none"
+                        data-js="header-signup-msa-tryagain">Enter a work or school email</a>
+                    <a type="submit"
+                        role="button"
+                        class="sign-up-header-continue"
+                        href=""
+                        style="display:none"
+                        data-js="header-signup-msa-continue">Continue with this email</a>
+                </form>
+            </section>
+        </div>
+    </div>
+
+                    </li>
+                    <li>
+                        <a
+                            href="/en-us/pricing/"
+                            class="c-button f-transparent fl-header-button"
+                            data-event-name="HeaderBuyNowClicked"
+                            data-event-source="Header"
+                            role="button"
+                        >
+                            Buy now
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="header-content fl-header-secondary-menu">
+            <nav class="header-nav c-select-menu">
+                <div class="fl-header-secondary-container">
+                    <a id="header-nav-dropdown" class="hamburger-deluxe" aria-haspopup="true" aria-expanded="false">
+                        <span class="fixin top-bun"></span>
+                        <span class="fixin patty"></span>
+                        <span class="fixin bottom-bun"></span>
+                    </a>
+                    <div class="fl-header-secondary-search"><form class="c-search flow-header-search"
+    action="/en-us/search/"
+    method="GET"
+    onsubmit="return q.value.trim()"
+    data-event-name="SearchEvent"
+    data-event-source="Header"
+    ng-non-bindable>
+    <input type="search"
+        name="q"
+        maxlength="500"
+        spellcheck="false"
+        autocomplete="off"
+        placeholder="Search templates ..."
+        aria-label="Search templates">
+    <button type="submit"
+        class="c-glyph"
+        alt="Search"
+        aria-label="Search Microsoft Power Automate">
+        <span class="x-screen-reader">Search</span>
+    </button>
+</form>
+</div>
+                </div>
+                <ul class="c-menu f-scroll" aria-labelledby="header-nav-dropdown" aria-hidden="true">
+                    <li class="c-menu-item nav-item-menu"><a class="c-hyperlink" href="/en-us/templates/" data-event-name="HeaderTemplatesClicked" data-event-source="HeaderHamburger">Templates</a></li>
+                    <li class="c-menu-item nav-item-menu"><a class="c-hyperlink" href="/en-us/connectors/" data-event-name="HeaderServicesClicked" data-event-source="HeaderHamburger">Connectors</a></li>
+                    
+
+    <li class="learn-menu c-select-menu" ng-non-bindable>
+        <a class="header-learn" href="" role="button" aria-expanded="false" aria-haspopup="true" class="c-hyperlink learn-more-select-menu-trigger" data-event-name="HeaderLearnClicked">Learn</a>
+        <ul class="c-menu learn-more-select-menu" aria-labelby="header-learn" role="menu" aria-hidden="true">
+                <li class="c-menu-item pricing-info">
+                    <a class="c-hyperlink" role="menuitem" href="/en-us/pricing/" data-event-name="HeaderLearnMenuPricingClicked">Pricing</a>
+                </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" href="/en-us/documentation/" role="menuitem" data-event-name="HeaderLearnMenuDocumentationClicked">Documentation</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" href="https://go.microsoft.com/fwlink/p/?linkid=2063549&amp;utm_source=flow-learn-menu&amp;utm_medium=web" role="menuitem" data-event-name="HeaderLearnMenuLearnClicked">Learn</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" role="menuitem" href="/en-us/support/" data-event-name="HeaderLearnMenuSupportClicked">Support</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" role="menuitem" href="https://go.microsoft.com/fwlink/?LinkID=787467" data-event-name="HeaderLearnMenuCommunityClicked">Community</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" role="menuitem" href="https://go.microsoft.com/fwlink/?LinkID=787474" data-event-name="HeaderLearnMenuFeedbackClicked">Give Feedback</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" role="menuitem" href="/en-us/blog/" data-event-name="HeaderLearnMenuBlogClicked">Blog</a>
+            </li>
+            <li class="c-menu-item">
+                <a class="c-hyperlink" role="menuitem" href="/en-us/ui-flows/" data-event-name="HeaderLearnMenuUiFlowsClicked">UI Flows</a>
+            </li>
+        </ul>
+    </li>
+
+                    <li class="c-menu-item nav-item-menu"><a href="/en-us/signin/?redirectUrl=https%3a%2f%2fflow.microsoft.com%2ferror%2f%3fhttpStatusCode%3d404%26404%3bhttps%3a%2f%2fflow.microsoft.com%3a443%2ffavicon.ico" class="c-hyperlink" data-event-name="HeaderSignInClicked"
+                    data-event-source="HeaderHamburger" data-js="header-signin">Sign in</a></li>
+                    <li class="c-menu-item nav-item-menu">
+                        
+
+
+    <button class="sign-up"
+            role="button"
+            aria-expanded="false"
+            data-js-flyout="header-signup-3f514eb4-ca2d-4bb2-9eee-60c860821756"
+            aria-haspopup="true"
+            data-event-name="SignUpClicked"
+            data-event-source="Header"
+            data-js="header-signup-button">
+        Try free
+    </button>
+    <div class="flow-c-header-signup-flyout">
+        <div class="c-flyout" id="header-signup-3f514eb4-ca2d-4bb2-9eee-60c860821756" data-js-flyout-placement="bottom" data-js-flyout-dismissible="false"
+        aria-hidden="true">
+            <section class="context-header-signup sign-up-header">
+                <p>Sign up with your email</p>
+                <form class="sign-up-header-form flow-c-signup-form" method="post" action="https://signup.microsoft.com/signup?sku=Flow_Free&amp;pbi_source=web&amp;pi=1&amp;ru=https%3a%2f%2fflow.microsoft.com%2fsignIn%3fredirectUrl%3dhttps%253a%252f%252fflow.microsoft.com%252ferror%252f%253fhttpStatusCode%253d404%2526404%253bhttps%253a%252f%252fflow.microsoft.com%253a443%252ffavicon.ico">
+                    <div class="sign-up-container c-button-text-field">
+    <input type="text" name="StepsData.Email" class="sign-up-header-email c-text-field" placeholder="someone@example.com" spellcheck="false" aria-label="Enter your email address:" data-js="signup-email-input" />
+    <button class="c-glyph glyph-forward-arrow sign-up-header-button" type="submit" data-js="signup-email-submit"><span class="x-screen-reader">Sign up</span></button>
+    <p class="sign-up-header-error" aria-live="assertive"></p>
+    <p class="sign-up-header-warning" aria-live="assertive"></p>
+</div>
+
+                    <a role="button"
+                        class="sign-up-header-msa-try-again"
+                        href=""
+                        style="display:none"
+                        data-js="header-signup-msa-tryagain">Enter a work or school email</a>
+                    <a type="submit"
+                        role="button"
+                        class="sign-up-header-continue"
+                        href=""
+                        style="display:none"
+                        data-js="header-signup-msa-continue">Continue with this email</a>
+                </form>
+            </section>
+        </div>
+    </div>
+
+                    </li>
+                    <li class="c-menu-item nav-item-menu">
+                        <a
+                            href="/en-us/pricing/"
+                            data-event-name="HeaderBuyNowClicked"
+                            data-event-source="HeaderHamburger"
+                            class="c-hyperlink"
+                        >
+                            Buy now
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+        <div class="body-container">
+            <div class="content-container" id="content-container">
+                
+<div class="x-type-center full-page-error sd-toggle" data-animation="slide" ng-non-bindable>
+        <div class="full-page-error-image-container image-container-404">
+            <img onerror="this.src=&#39;/Content/retail/assets/full-page-error-404.d5c74c9090d093c53e8cb7e56ed2a53c.2.svg&#39;" src="https://psuxus.azureedge.net/Content/retail/assets/full-page-error-404.d5c74c9090d093c53e8cb7e56ed2a53c.2.svg" />
+        </div>
+    <div class="row full-page-error-message">
+        <h1 class="c-heading-3">Sorry, there&#39;s been a disconnect</h1>
+        <div class="column medium-6 medium-offset-3">
+            <p class="c-paragraph-3">We can&#39;t find the page you&#39;re looking for. Please verify the link and try again.</p>
+                <p>
+                    <a href="#details" class="c-hyperlink subtle toggler">See more details</a>
+                </p>
+        </div>
+    </div>
+    <div class=toggled>
+        <div class="arrow_box">
+            <div id="details" class="full-page-error-details">
+                <div class="row">
+                    <p class="c-paragraph-3">If you contact support, you may be asked to provide the following details:</p>
+                    
+                    <div class="error-info-container">
+                        <div class="error-info">Time: 2020-09-06T18:44:32.3645810Z</div>
+                        <div class="error-info">Session ID: 57e8bf28d9f44fa3b485b2b40548f005</div>
+                        
+                                            </div>
+                </div>
+                    <div class="close-button small-screen-close-button-container">
+                        <a role="button" class="c-action-trigger error-detail-close-button c-glyph glyph-close toggler" href=""></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="full-page-error-button-container">
+            <a href="/templates" role="button" class="c-button">Browse templates</a>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+    <div id="react-surface-overlay"></div>
+
+            <script src="https://psuxus.azureedge.net/Content/retail/common.7987f5fd34e9fd9ce8e8.2.js"></script>
+            <script>
+                if(!window["webpackJsonp"]) {
+                    (window.cdnErrors = (window.cdnErrors || [])).push(['CDN JS', 'https://psuxus.azureedge.net/Content/retail/common.7987f5fd34e9fd9ce8e8.2.js']) && window.msFlowLogCdnError && window.msFlowLogCdnError();
+                    document.write("<script src='/Content/retail/common.7987f5fd34e9fd9ce8e8.2.js'><\/script>");
+                }
+                if(!window["webpackJsonp"]) { (window.cdnErrors = (window.cdnErrors || [])).push(['Local JS', '/Content/retail/common.7987f5fd34e9fd9ce8e8.2.js']) && window.msFlowLogCdnError && window.msFlowLogCdnError(); }
+            </script>
+
+            <script src="https://psuxus.azureedge.net/Content/retail/assets/ClientResources-en-us.bbc9e809dbfab0b2f579526226ae6910.2.js"></script>
+            <script>
+                if(!window["ClientResources"]) {
+                    (window.cdnErrors = (window.cdnErrors || [])).push(['CDN JS', 'https://psuxus.azureedge.net/Content/retail/assets/ClientResources-en-us.bbc9e809dbfab0b2f579526226ae6910.2.js']) && window.msFlowLogCdnError && window.msFlowLogCdnError();
+                    document.write("<script src='/Content/retail/assets/ClientResources-en-us.bbc9e809dbfab0b2f579526226ae6910.2.js'><\/script>");
+                }
+                if(!window["ClientResources"]) { (window.cdnErrors = (window.cdnErrors || [])).push(['Local JS', '/Content/retail/assets/ClientResources-en-us.bbc9e809dbfab0b2f579526226ae6910.2.js']) && window.msFlowLogCdnError && window.msFlowLogCdnError(); }
+            </script>
+
+    
+
+    <script ng-non-bindable>
+        window.appSettings = {"aadGraphUrl":"https://graph.windows.net","aadGraphApiVersion":"1.6","aadGraphAuthResource":"https://graph.windows.net","aadOfficeHeaderAuthResource":"https://webshell.suite.office.com","adminPortalUrl":"https://admin.flow.microsoft.com","apiHubsRuntimeResource":"https://management.core.windows.net/","apiHubsRuntimeHosts":["https://unitedstates-002.azure-apim.net","https://msmanaged-na.azure-apim.net","https://europe-001.azure-apim.net","https://europe-002.azure-apim.net","https://asia-001.azure-apim.net","https://australia-001.azure-apim.net","https://india-001.azure-apim.net","https://japan-001.azure-apim.net","https://canada-001.azure-apim.net","https://uk-001.azure-apim.net","https://firstrelease-001.azure-apim.net","https://brazil-001.azure-apim.net","https://france-001.azure-apim.net","https://uae-001.azure-apihub.net"],"apiOperationsListPageSizeForIntegrationView":8,"armAudience":"https://management.azure.com/","azureResourceManagementUri":"https://management.azure.com","authResource":"https://service.flow.microsoft.com/","brandName":"Power Automate","buildVersion":"1.0.4547.6.01a8fd47cd Flow-Service.portal/2008.3 (AzBuildW2-Ma28.200826-1611)","businessAppPlatformResourceProviderApiVersion":"2016-11-01","businessAppPlatformResourceProviderPath":"/providers/Microsoft.BusinessAppPlatform","contentVersion":"1.0.4547.6","delegatedAuthOid":"4a95641b-e27c-ab69-a7d8-fb936c50e4ec","designer":{"definitionSchemaUri":"https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#","promotedServicesForActions":["connectionProviders/control","/providers/Microsoft.PowerApps/apis/shared_office365","/providers/Microsoft.PowerApps/apis/shared_onedriveforbusiness","/providers/Microsoft.PowerApps/apis/shared_office365users","/providers/Microsoft.PowerApps/apis/shared_sharepointonline","connectionProviders/httpGroup","/providers/Microsoft.PowerApps/apis/shared_twitter","/providers/Microsoft.PowerApps/apis/shared_flowpush"],"promotedServicesForTriggers":["/providers/Microsoft.PowerApps/apis/shared_office365","connectionProviders/scheduleGroup","/providers/Microsoft.PowerApps/apis/shared_sharepointonline","connectionProviders/buttonGroup","/providers/Microsoft.PowerApps/apis/shared_rss","/providers/Microsoft.PowerApps/apis/shared_twitter","/providers/Microsoft.PowerApps/apis/shared_outlook","/providers/Microsoft.PowerApps/apis/shared_onedriveforbusiness","/providers/Microsoft.PowerApps/apis/shared_googlecalendar","/providers/Microsoft.PowerApps/apis/shared_gmail","/providers/Microsoft.PowerApps/apis/shared_onedrive","connectionProviders/requestResponseGroup","/providers/Microsoft.PowerApps/apis/shared_dropbox","/providers/Microsoft.PowerApps/apis/shared_dynamicscrmonline"],"promotedBuiltInOperations":["if"],"scriptsDownloadTimeout":120,"startPublishingTelemetry":true,"termsInCreateConnection":true},"environmentCookieName":"environment","eulaConfirmCookieName":"eulaconfirmed","filteredApis":["shared_logicflows","shared_powerflows"],"flowCheckerDebounceRate":2000,"filteredConnections":["shared_excel"],"flowTesting":{"pollingInterval":5000,"pollingTimeout":600000,"pollRetryCount":3,"pollRetryDelay":2000},"functionsAuthResource":"https://service.powerapps.com/","functionsResourceProviderManagementEndpoint":"https://admin.blueridge.ms","functionsResourceProviderApiVersion":"2018-02-01","gatewaysPath":"/providers/Microsoft.PowerApps/gatewayClusters","jsllAppId":"MicrosoftFlow","launchWinAutomationAppUri":"ms-powerautomate:/designer/flow/edit","msBrandName":"Microsoft Power Automate","msaCommonTenantId":"f8cdef31-a31e-4b4a-93e4-5f571e91255a","neptuneApiEndpoint":"https://licensing.powerplatform.microsoft.com","neptuneApiVersion":"v0.1-alpha","portalUrl":"https://flow.microsoft.com","powerAppsHomeUrl":"https://powerapps.microsoft.com","powerAppsPortalUrl":"https://make.powerapps.com","powerAppsResourceProviderEndpoint":"https://unitedstates.api.powerapps.com","powerAppsResourceProviderApiVersion":"2016-05-01-preview","powerAppsResourceProviderApiVersionWithEnvironments":"2016-11-01","powerAppsResourceProviderPath":"/providers/Microsoft.PowerApps","privacyUrl":"https://go.microsoft.com/fwlink/?LinkId=521839","processSimpleManagementUri":"https://us.api.flow.microsoft.com/providers/Microsoft.ProcessSimple","processSimpleResourceProviderApiVersion":"2016-03-01-beta","processSimpleResourceProviderApiVersionWithEnvironments":"2016-11-01","processSimpleResourceProviderManagementEndpoint":"https://us.api.flow.microsoft.com/","processSimpleResourceProviderPath":"/providers/Microsoft.ProcessSimple","templatesListPageSize":48,"templatesListPageSizeForIntegrationView":4,"setEnvironmentQueryString":"environment","signUpRedirectUrl":"https://signup.microsoft.com/signup?sku=Flow_Free&pbi_source=web","signUpEmailQueryString":"auth_upn","microsoftGraphAadResourceUri":"https://graph.microsoft.com","mobileIosAppStoreUrl":"https://itunes.apple.com/us/app/microsoft-flow/id1094928825","mobileAndroidAppStoreUrl":"https://play.google.com/store/apps/details?id=com.microsoft.flow","termsOfServiceUrl":"https://azure.microsoft.com/en-us/support/legal/subscription-agreement/","supportPageUrl":"https://go.microsoft.com/fwlink/?LinkID=787479","msSolveSupportUrl":"https://go.microsoft.com/fwlink/?LinkID=787475&clcid=0x409","newSupportTicketOrigin":"https://admin.powerplatform.microsoft.com","oneAdminCenterSupportUrl":"https://aka.ms/flowadminsupport","adminCenterAadClientId":"637fcc9f-4a9b-4aaa-8713-a2a3cfda1505","customApiNameMaxLength":40,"consentServerUri":"https://msmanaged-na.consent.azure-apim.net","consentServerAadResourceUri":"https://consent.msp.windows.net/logic-app-aad","notificationDaysInterval":1,"notificationRefreshInterval":300000,"cdnUrl":"https://psuxus.azureedge.net","microsoftGraphUrl":"https://graph.microsoft.com/v1.0","gatewayInstallerUrl":"https://go.microsoft.com/fwlink/?LinkID=820580&clcid=0x409","gatewayLearnUrl":"https://go.microsoft.com/fwlink/?LinkID=820582&clcid=0x409","onPremisesLearnUrl":"https://go.microsoft.com/fwlink/?LinkID=821160&clcid=0x409","wedcsTelemetryRouteId":"21003","p1TrialPlanLicenseId":"a76f574d-fe8e-4f5b-bcdf-c678152dd787","p1PlanPurchaseUrl":"https://portal.office.com/SubscriptionDetails?OfferId=b6b34ddd-ccd4-49ac-b381-dc27c6d3fbce","p1PlanTenantPurchaseUrl":"https://portal.office.com/SubscriptionDetails?OfferId=b6b34ddd-ccd4-49ac-b381-dc27c6d3fbce","p2TrialPlanLicenseId":"bc38756f-dd1b-47ee-b2af-2aa224571412","p2PlanPurchaseUrl":"https://portal.office.com/SubscriptionDetails?OfferId=56254859-71e4-4ddf-8426-9b58292576b0","p2PlanTenantPurchaseUrl":"https://portal.office.com/SubscriptionDetails?OfferId=56254859-71e4-4ddf-8426-9b58292576b0","plansFlowServiceType":"ProcessSimple","howItWorksVideoUrl":"https://flow.streaming.mediaservices.windows.net/4dc9c5c9-abf3-4787-a7ce-026851e74128/MicrosoftFlow_Homepage10-27.ism/Manifest","howItWorksVideoPlayer":"amp","howItWorksVideoYoutubeUrl":"https://www.youtube.com/embed/hCuxuUaGC6Y?rel=0&autoplay=1","howItWorksNewVideoYoutubeUrl":"https://www.youtube.com/embed/H4H_jPJWlxU?rel=0&autoplay=1","howItWorksRPAHomePageUpdateVideoYoutubeUrl":"https://www.youtube.com/embed/M0xJl9TkL6E?rel=0&autoplay=1","howUIFlowWorksVideoYoutubeUrl":"https://www.youtube.com/embed/bZrrdoytTH0?rel=0&autoplay=1","npsOriginUrl":"https://nps.onyx.azure.net","mobileIosAppStoreUrlForEmail":"https://aka.ms/flowmobilebanneremailmeios","mobileAndroidAppStoreUrlForEmail":"https://aka.ms/flowmobilebanneremailmeandroid","mobileDownloadPageLearnMoreLink":"https://aka.ms/flowmobilediscoverabilitybanner","portalMobileLearnMoreLink":"https://aka.ms/flowmobileportaldiscoverability","businessAppPlatformResourceProviderEndpoint":"https://unitedstates.api.bap.microsoft.com","xrmInstanceApiUriSuffix":".dynamics.com","xrmBusinessProcessFlowDesignerPath":"/Tools/ProcessControl/UnifiedProcessDesigner.aspx","mashupEditorAudience":"https://powerquery.microsoft.com","mashupEditorAllowedOrigin":"https://us.prod.powerquery.microsoft.com","mashupEditorEndpointUrlPath":"/MashupEditor/","geofenceEditorBingMapApiKey":"AijaZijXqfdagXiTLpIR0E627Abum0PruK88sKcnmKSA9JfGhqtirCP3yhW3wclP","tokenRefreshBackoffCount":10,"tokenRefreshBackoffTimeInMinutes":10,"officeHeaderShellBootHost":"https://shellprod.msocdn.com","officeHeaderShellBootUrl":"https://shellprod.msocdn.com/api/shellbootstrapper/business/oneshell","walkMeScriptLocation":"https://pa-guided.azureedge.net/prod/4a1fe20254af4d9db95c8782056f6c4d/walkme_4a1fe20254af4d9db95c8782056f6c4d_https.js","powerAppsAuthResource":"https://service.powerapps.com/","communityUrl":"https://go.microsoft.com/fwlink/?LinkId=787467","feedbackUrl":"https://go.microsoft.com/fwlink/?LinkId=787474","retryCountForAsyncWebpackChunksLoading":5,"templatesWhitelistedForAddingAnyPremiumConnector":["c9cd2c4e691a4646adc8aa592c88489b"],"rpaAgentPackageDownloadLink":"https://go.microsoft.com/fwlink/?linkid=2102613","rpaExtensionChromeStoreLink":"https://go.microsoft.com/fwlink/?linkid=2118086","rpaScreenshotSendBatchSize":5,"rpaActionRetryMinValue":1,"rpaActionRetryMaxValue":50,"rpaPadOperationId":"/providers/Microsoft.PowerApps/apis/shared_uiflow/apiOperations/RunUiFlow_v2","geoGatewayMapping":{"japan":"Japan East","unitedstates":"West US","europe":"North Europe","india":"Central India","asia":"Southeast Asia","unitedstatesfirstrelease":"West Central US","canada":"Canada Central","france":"France Central","unitedarabemirates":"UAE North","unitedkingdom":"UK South","southamerica":"Brazil South","australia":"Australia East"},"show21VianetLogo":false,"isYoutubeSupported":true,"isTwitterSupported":true,"isMobileAppDownloadSupported":true,"isFreeTrialSupported":true,"isAnalyticsPageNotSupported":false,"enterpriseUserWaffle":"https://www.office.com/?auth=2&home=1","msaUserWaffle":"https://www.office.com/?auth=1&home=1","isDataFlexEnabled":false,"rpaDeskopDownloadLink":"https://go.microsoft.com/fwlink/?linkid=2137322"} || {};
+        window.appSettings.cache = {};
+        window.appSettings.correlationId = '59988f66-cea9-4235-a7dc-e10d00bb8165';
+        window.appSettings.sessionCookieDomain = '.flow.microsoft.com';
+        window.appSettings.portalSettingsCookieName = 'FlowPortalSettings';
+        if (window.appSettings.designer) {
+            window.appSettings.designer.locale = 'en';
+        }
+            
+                window.appSettings.authResource = "https://management.core.windows.net/";
+            
+        window.appSettings.environment = 'tip0';
+        window.appSettings.featureFlags = {"showLearnMenu":true,"showManagedApiPage":true,"showApprovalCenter":true,"showCustomApisListPage":true,"enableCdn":true,"designerCollapsePopulatedParameters":true,"minify":true,"showInlineTemplateConnectionWizard":true,"designerShowMenuOptionsWithDependencies":true,"gatewaySupport":true,"enableEditCustomApi":true,"showConnectionsInMenu":true,"enableEnvironments":true,"enablePeoplePicker":true,"enableBilling":true,"designerInitializeDynamicContentAsync":true,"enableConnectionCaching":true,"storageCacheClearInterval":60000,"useSupportV2Page":true,"enableButtonTrigger":true,"enableGAPreviewRemoval":true,"designerNewTokenPicker":true,"enablePurchaseNow":true,"enableConsentEmailOptions":true,"designerUseEditorInput":true,"enableYoutube":true,"enablePropertiesPaneCustomApi":true,"enableWidgetCreateFromTemplate":true,"enableWidgetEdit":true,"enableWidgetTeamFlows":true,"enableFlowCoauthoring":true,"enableNps":true,"enableTestFlow":true,"enableTestPaneCustomApi":true,"oneClickTemplatesOnZeroFlowsPage":true,"enableDownloadMenu":true,"designerNewRecommendationCard":true,"designerViewConnectionPermissionsDialog":true,"designerDebounceEmitChange":true,"showFeaturedOfficeTemplatesToNewUser":true,"enableButtonParameters":true,"enableImprovedFlowCreationFromTemplate":true,"enableFlowSaveAs":true,"enableFixConnectionsDialog":true,"enableCDSRequestApiConnectionTrigger":true,"enableCDSForAppsFlowStepTrigger":true,"enableExcelRequestApiConnectionTrigger":true,"enableHubSiteJoinApprovalRequestApiConnectionTrigger":true,"enableSharePointForASelectedFileRequestApiConnectionTrigger":true,"enableTeamsForComposingAMessageRequestApiConnectionTrigger":true,"enableTeamsForASelectedMessageRequestApiConnectionTrigger":true,"enableRequestRunOnlyAccessPage":true,"enableButtonParametersOnRequestApiConnectionTrigger":true,"enableDietDesigner":true,"designer":"default","enableTrialExpirationRedirect":true,"enableLandingSection":true,"designerODataParameterTip":true,"designerShowCalloutHints":true,"designerShowRecommendationTip":true,"enableCustomApiPolicy":true,"enablePollingTriggerPolicy":true,"enableCustomApiAzureIntegration":true,"enableAzureApimCustomConnector":true,"enableCustomApiTrigger":true,"enableCustomResponseOptions":true,"enableTemplateTileMobileDownload":true,"enableFlowProperty":true,"enableSummaryPaneOnZeroFlowRuns":true,"enableFlowSubmitTemplateDropDown":true,"enableFlowImportExport":true,"enableRuntimeConnectionManagement":true,"enableSwaggerEditorDynamicValues":true,"enableUserPreferences":true,"designerSupportMyClipboard":true,"designerSupportSimpleCondition":true,"designerSupportObfuscation":true,"enableInlineConsentForOfficeUsers":true,"enableRegionalPortalRedirect":true,"showApiOperationsOnServicePage":true,"enableApiConnectionNotificationTypeCoercion":true,"enableApiResultsFromOperationResults":true,"designerShowExpressionBuilder":true,"designerShowExpressionBuilderForCondition":true,"designerButtonEnumParameter":true,"designerButtonFileParameter":true,"designerNewPeoplePicker":true,"designerShowSoftLandingTips":true,"designerParentObjectForOutputs":true,"enableDownloadFlowRunsHistoryCsv":true,"enableLogicAppTemplateExport":true,"enableTemplateCollections":true,"enableOnBehalfOfTokens":true,"usePowerAppsConnectionsWidget":true,"hideInputLessConnection":true,"recommendTemplatesInFlowPages":true,"enableFlowAnalytics":true,"enableLogicAppSoapImport":true,"enableTemplatesClientRendering":true,"designerEnableScopeRepetitionApi":true,"designerSupportPeek":true,"enableDesignerConcurrencySettings":true,"showApprovalHistory":true,"enableApprovalCancel":true,"enableFlowAnalyticsMultiDashboard":true,"enableWidgetBlockerForBlacklistedTenant":true,"designerButtonMultiSelection":true,"enableFlowFailureAlertSubscriptions":true,"designerTrimSharepointSiteAddressToCorrectUrl":true,"designerNewConditionBuilder":true,"enableFlowAuthorizationDelegateEdit":true,"enableBusinessProcessFlowIntegration":true,"designerEnableSharePointMultiValueColumns":true,"designerEnableParameterValidation":true,"enableOpenApiConnection":true,"enableOpenApiMonitoringView":true,"enableApprovalOnBehalfOfUser":true,"enableAnnouncements":true,"enableWalkMe":true,"enableNewFlowsPage":true,"enableNewFlowsPageInWidget":true,"enableNewFlowsPageInExcelWidget":true,"enableNewFlowsPageInTeamsWidget":true,"enableNewApprovalsPageInTeamsWidget":true,"enableNewBpfPage":true,"enableNewActionCenter":true,"enableCreateBPFReactDialog":true,"enableTriggerSimulate":true,"enableMFALogin":true,"enableB2BLogin":true,"designerNewRecommendationCardWithModules":true,"enableOneAdminCenterSupport":true,"enableEndUserEmbeddedSupport":true,"enableParameterHtmlStringFormat":true,"enableDesignerGeofenceRequestTrigger":true,"enableWidgetHostTokenCaching":true,"enableODBRequestAPIConnectionTrigger":true,"enableSidebar":true,"enableSolutions":true,"designerHtmlEditor":true,"designerUseHtmlCodeView":true,"designerUseTextEditor":true,"designerUseNewExpressionParser":true,"designerButtonRequiredOption":true,"designerButtonDateParameter":true,"fullReactFlows":true,"fullReactApprovals":true,"sendACopyOfFlow":true,"enableNewTemplateCard":true,"enableTokenRefreshBackoff":true,"enableFlowCheckerRPCalls":true,"enableFlowCheckerForPowerAppV2TriggeredFlows":true,"enableReactInvokeFlowPanel":true,"enableSolutionFlowOpenApiDefaulting":true,"enableFlowCheckerClicks":true,"enableCreateExperience":true,"designerAdvancedParameter":true,"fullReactFlowProperties":true,"designerTokenFilteringUsingTokenWeights":true,"designerTokenFilteringUsingTokenWeightsAndMailKeyword":true,"designerStaticOutputs":true,"enableConnectionsInMonitorView":true,"enableXrmTeamSharing":true,"enableSessionExpiryNotification":true,"enableExtendedSwaggerValidation":true,"useGlobalRedirectModeForConnections":true,"enableVirtualAgentTriggerResponse":true,"enableFullReactConsent":true,"enableStandAloneBPFs":true,"enableAIBuilder":true,"enableBPFRunNow":true,"enableOfficeHeader":true,"enableCreatePage":true,"enableInlineSwaggerEditor":true,"enableChildFlows":true,"enableReactFlowCreationWidget":true,"enableRochdale":true,"designerNewDefaultEditor":true,"designerNewSchemaEditor":true,"designerNewStringEditor":true,"designerNewAdaptiveCardTriggerEditor":true,"enableAIBuilderWidget":true,"designerValidateUnknownParameterAsError":true,"designerNewCopyableEditor":true,"enableJsll":true,"enableOfficeHeaderUniversalSearch":true,"enableOfficeHeaderUniversalSearchSupport":true,"enableOfficeHeaderUniversalSearchTemplate":true,"enableOfficeHeaderUniversalSearchApis":true,"enableNumberFunctionsExpressionActions":true,"enableTextFunctionsExpressionActions":true,"enableFlowPlanConfiguration":true,"useOperationsInCreateAutomated":true,"useOperationsV2InDesigner":true,"useOperationsV2InCreateModals":true,"enableNewTemplatePage":true,"enableHomeV2":true,"enableRpaRecordingEditorV2":true,"enableRpaWriteSupportValidation":true,"hideRPASendKeysV1":true,"rpaSecureInputs":true,"rpaArrayInputs":true,"rpaArrayOutputs":true,"enableRpaBuiltinOperations":true,"enableRpaMyClipboard":true,"enableRpaCopyPasteValidation":true,"enableUIFlowsUpsellDialog":true,"enableUIFlowsRunsPage":true,"showHomeBlackBanner":true,"showHomeAnnouncement":true,"enableNewTemplateCollections":true,"enableEnvironmentOnBehalfOfTokenRoute":true,"enableRpaSelectorsEditor":true,"enableRpaScreenshotUploader":true,"enableRpaFullScreenModal":true,"enableRpaCodeViewButton":true,"enableRpaCodeViewButtonShowingSelectors":true,"enableClientRenderedTemplatesPageInWidget":true,"enableBlackBannerAccUpdate":true,"enableRPAActionSettings":true,"enableDietDesignerWithDefaultDesignerBranch":true,"enableSAPActions":true,"enableRpaWinAutomationAction":true,"enableBPFInManageFlowsInTeamsApp":true,"enableRpaDelayAction":true,"enableRpaUntilAction":true,"forceBetaDesignerEditorsForDietDesigner":true,"enableRawOperationIOValueSurface":true,"enableBlackBannerGartnerUpdate":true};
+        window.appSettings.featureFlags.designer = 'default';
+        window.appSettings.defaultAppSidebarItemKey = '';
+        window.appSettings.isWidgetPage = false;
+        window.appSettings.locale = 'en-us';
+        window.appSettings.templateCategories = [{"id":"remoteWork","name":"Remote work"},{"id":"approval","name":"Approval"},{"id":"button","name":"Button"},{"id":"collectData","name":"Data collection"},{"id":"email","name":"Email"},{"id":"eventsAndCalendar","name":"Events and calendar"},{"id":"mobile","name":"Mobile"},{"id":"notifications","name":"Notifications"},{"id":"productivity","name":"Productivity"},{"id":"socialMedia","name":"Social media"},{"id":"sync","name":"Sync"},{"id":"visio","name":"Visio"}] || {};
+        window.appSettings.selectedTheme = {"palette":{"themeDarker":"#00388c","themeDark":"#0047b3","themeDarkAlt":"#005ce6","themePrimary":"#0066ff","themeSecondary":"#1975ff","themeTertiary":"#94bfff","themeLight":"#cce0ff","themeLighter":"#e6f0ff","themeLighterAlt":"#f2f7ff","black":"#000000","neutralDark":"#212121","neutralPrimary":"#333","neutralPrimaryAlt":"#3c3c3c","neutralSecondary":"#666666","neutralTertiary":"#a6a6a6","neutralTertiaryAlt":"#c8c8c8","neutralQuaternary":"#d0d0d0","neutralQuaternaryAlt":"#dadada","neutralLight":"#eaeaea","neutralLighter":"#f4f4f4","neutralLighterAlt":"#f8f8f8","white":"#fff"},"isInverted":false} || {};
+
+            
+                window.appSettings.antiForgeryToken = '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';
+            
+    </script>
+
+
+        <script ng-non-bindable>
+            window.sessionInfo = {"sessionId":"57e8bf28d9f44fa3b485b2b40548f005","isAuthenticated":false,"userConsented":false,"isDisallowedFromInternalPlans":false,"isGuestUser":false,"hasUserTenantDisabledPowerappsServicePrincipal":false,"userServicePlans":null,"environment":null,"userInfo":null,"userPreferences":{"preferredLocale":null,"useBetaFeatures":false,"theme":null},"userFeatures":{"enableOpenApiConnection":null,"enabledFeatures":null}};
+
+        </script>
+            <div id="react-flow-smartbanner"></div>
+    
+            <script src="https://psuxus.azureedge.net/Content/retail/app.6247b9d5c9b7fa78b800.2.js"></script>
+            <script>
+                if(!window["msflowportal"]) {
+                    (window.cdnErrors = (window.cdnErrors || [])).push(['CDN JS', 'https://psuxus.azureedge.net/Content/retail/app.6247b9d5c9b7fa78b800.2.js']) && window.msFlowLogCdnError && window.msFlowLogCdnError();
+                    document.write("<script src='/Content/retail/app.6247b9d5c9b7fa78b800.2.js'><\/script>");
+                }
+                if(!window["msflowportal"]) { (window.cdnErrors = (window.cdnErrors || [])).push(['Local JS', '/Content/retail/app.6247b9d5c9b7fa78b800.2.js']) && window.msFlowLogCdnError && window.msFlowLogCdnError(); }
+            </script>
+
+
+
+
+
+    <script src="https://az725175.vo.msecnd.net/scripts/jsll-4.js"></script>
+    <script>
+        (function () {
+            var config = {
+                useBeacon: false,
+                urlCollectQuery: false, 
+                debounceMs: {
+                    scroll: 300,
+                    resize: 3000
+                },
+                autoCapture: {
+                    pageView: true,
+                    scroll: true,
+                    resize: true
+                },
+                callback: {
+                    signedinStatus: function signInCallback() {
+                        return false;
+                    }
+                },
+                coreData: {
+                    appId: "MicrosoftFlow"
+                }
+            };
+            if (typeof awa !== 'undefined') {
+                awa.init(config);
+            }
+        })();
+    </script>
+
+    
+            <script>!function(){var n=/MSIE \d|Trident.*rv:/.test(navigator.userAgent),s=(navigator.userAgent||"").indexOf("Edge")>-1;function t(t,e){if(n||s){var o;try{o=t.sheet.cssRules}catch(n){o={length:0}}o&&!o.length&&(t.href=e)}}var e={};window.msFlowCssOnLoad=function(){for(var n;n=(window.msFlowCss||[]).shift();)e[n[1]]||(e[n[1]]=!0,t.apply(null,n))},msFlowCssOnLoad()}();</script>
+        <script>!function(){function e(){var e="",n=0;for(n=0;n<32;n+=1){var o=16*Math.random()|0;switch(n){case 8:case 12:case 16:case 20:e+="-"}e+=o.toString(16)}return e}window.msFlowLogCdnError=function(n){if(n)return n.onload="",void(n.onerror="");!function(n){if(window.fetch&&Date.prototype.toISOString&&n&&n.length>0){var o=n.map(function(e){return e[0]+"("+e[1]+")"}).join("\n");n.splice(0,n.length);var t=[{eventType:"Trace",eventId:e(),eventName:"CDNFallback",eventTimestamp:(new Date).toISOString(),message:"Assets failed to load from CDN: "+o}],r={method:"POST",headers:{"Content-Type":"application/json","x-ms-client-request-id":e(),"X-Csrf-Token":window.appSettings.antiForgeryToken},mode:"cors",credentials:"same-origin",body:JSON.stringify({events:t})},i=window.location.origin+"/providers/Internal.Telemetry/collect";window.fetch(i,r)}}(window.cdnErrors)},msFlowLogCdnError()}();</script>
+
+</body>
+</html>
